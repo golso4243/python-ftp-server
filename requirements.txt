@@ -1,0 +1,17 @@
+# FTP Server and Client Dependencies
+# Install with: pip install -r requirements.txt
+
+# FTP Server Library
+pyftpdlib==1.5.9
+
+# Environment Variable Management
+python-dotenv==1.0.0
+
+# Standard library modules (included with Python):
+# - ftplib (FTP client)
+# - cmd (Interactive shell)
+# - argparse (Command line parsing)
+# - os (Operating system interface)
+# - sys (System-specific parameters)
+# - logging (Logging facility)
+# - datetime (Date and time handling)
