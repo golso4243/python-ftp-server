@@ -184,7 +184,7 @@ def main():
     """
 
     # Load environment variables
-    load_dotenv('.env.development')
+    load_dotenv('.env')
 
     # Initialize logging system
     log_file = setup_logging()

@@ -176,7 +176,7 @@ class FTPInteractiveShell(cmd.Cmd):
 
     def __init__(self):
         super().__init__()
-        load_dotenv('.env.development')
+        load_dotenv('.env')
 
         # Load configuration from environment
         self.host = os.getenv('FTP_HOST', '127.0.0.1')
