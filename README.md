@@ -159,7 +159,7 @@ From a terminal (PowerShell, CMD, or bash):
 2. Clone the repository into the current folder:
 
    ```bash
-   git clone https://github.com/golso4243/python-ftp-server .
+   git clone https://github.com/golso4243/python-ftp-server-cybersec-lab .
    ```
 
    ⚠️ The trailing . makes sure files are cloned directly into ftp_cybersec_lab instead of a nested folder.
