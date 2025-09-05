@@ -145,6 +145,8 @@ This project provides a complete FTP server and client implementation for cybers
 
 ## 📦 Installation
 
+**⚠️ HIGHLY RECOMMENDED:** Run terminal as administrator.
+
 From a terminal (PowerShell, CMD, or bash):
 
 1. Create and move into the project folder:
