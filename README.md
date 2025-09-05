@@ -145,23 +145,48 @@ This project provides a complete FTP server and client implementation for cybers
 
 ## 📦 Installation
 
-1. **Clone or download the project files:**
+From a terminal (PowerShell, CMD, or bash):
+
+1. Create and move into the project folder:
+
    ```bash
-   git clone <repository-url> ftp_cybersec_lab
+   mkdir ftp_cybersec_lab
    cd ftp_cybersec_lab
    ```
 
 <br>
- 
-2. Set up [virtual environment](#🐍-virtual-environment-setup) **(RECOMMENDED)**
+
+2. Clone the repository into the current folder:
+
+   ```bash
+   git clone https://github.com/golso4243/python-ftp-server .
+   ```
+
+   ⚠️ The trailing . makes sure files are cloned directly into ftp_cybersec_lab instead of a nested folder.
+
+<br>
+
+3. Open the project in VS Code: `code .`
+
+
+   💡 **Tip: Enable the `code` command**  
+      - The `code` command lets you open VS Code from your terminal (e.g., with `code .`).
+      - On Windows: During installation of VS Code, check **“Add to PATH”** so the `code` command works in PowerShell or CMD.
+      - If you missed it, open VS Code, press `Ctrl+Shift+P`, search for **“Shell Command: Install 'code' command in PATH”**, and run it.
+      - After this, restart your terminal and you’ll be able to type `code .` to open the current folder (ftp_cybersec_lab) in VS Code.
+
+
+<br>
+
+4. Set up [virtual environment](#🐍-virtual-environment-setup) **(RECOMMENDED)**
 
 <br>
  
-3. **Install Python dependencies:** `pip install -r requirements.txt`
+5. Install Python dependencies: `pip install -r requirements.txt`
 
 <br>
  
-4. **Verify installation:** `python -c "import pyftpdlib; print('Dependencies installed successfully')"`
+6. Verify installation: `python -c "import pyftpdlib; print('Dependencies installed successfully')"`
 
 <br><br>
 
